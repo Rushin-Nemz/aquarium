@@ -1,0 +1,186 @@
+/********************************************************** welcome section  */
+h1{
+    color:#1a2675;  
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: 'Adobe Caslon Pro', sans-serif;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.aqua-logo{
+    height: 50px;
+    width: 50px;
+}
+.navbar ul li a{
+    font-weight: bold;
+    padding:5px;
+}
+.navbar ul li a:hover{
+    color:#1a2675;
+    text-decoration: underline;
+}
+.mycontainer {
+    width: 90%;
+    margin: 0 auto;
+}
+.wel-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom:0;
+}
+
+.header-section{
+    display:flex;
+    height: 600px;
+    align-items: center;
+}
+.wel-content{
+width:45%;
+}
+
+@media (max-width:1199px){
+    .wel-img{
+        opacity: 0.4;
+        z-index: -1;
+    }
+    .wel-content{
+        width:100%;
+    }
+    .header-section{
+        height: 380px;
+        padding:25px;
+    }
+}
+@media (max-width:768px){
+    .wel-img{
+    display: none;    }
+}
+
+/********************************************************* about aquarium section  */
+
+.about-content{
+    text-align: center;
+}
+
+/********************************************************** service icon section  */
+.spacing{
+    margin-bottom: 100px;
+}
+.service-icon-section{
+background-color: #264ce2;
+border-radius: 120px;
+padding: 15px 0 15px 25px;
+}
+.icons-division{
+    background-color: white;
+    border-radius: 100px;
+    padding: 19px;
+    position: relative;
+    right: -50px;
+}
+
+@media (max-width:1000px){
+    .icons-division{
+        position: static;
+    }
+    .service-icon-section{
+        background-color: #264ce2;
+        border-radius: 120px;
+        padding: 15px 25px 15px 25px;
+        }
+}
+@media (max-width:767px){
+    .service-icon-section{
+        background-color: white;
+        border-radius: 120px;
+        padding: 10px 15px 10px 15px;
+        }
+}
+
+/*********************************************************** why choose us section  */
+.container2{
+    width: 40%;
+}
+.nemz{
+    position: relative;
+    bottom: 210px;
+}
+@media (max-width:992px){
+    .container2{
+        width: 60%;
+    }
+}
+@media (max-width:767px){
+    .nemz{
+        display: none;
+    }
+    .container2{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+
+/**************************************************************** our gallery section  */
+.nav-pills {
+    --bs-nav-pills-link-active-color: black;
+    --bs-nav-pills-link-active-bg: white;
+}
+.tab-pane{
+    font-size: bold;
+    text-align: center;
+}
+.tab-pane a{
+    text-decoration: none;
+    color: #264ce2;
+}
+.tab-pane a:hover{
+    color: #1a2675;
+}
+/* .list-inline a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.col-12 pre{
+    font-size: 20px;
+}
+.col-12 pre a:hover{
+    text-decoration: 2px underline;
+} */
+
+.gallery-img{
+    border-radius: 60px;
+    width: 280px;
+    height: 250px;
+}
+
+
+/******************************************************************** fish care secton  */
+.fish-care-img{
+    width: 100%;
+}
+.mb-5 a{
+    color: #00349c;
+    text-decoration: none;
+    font-size: 25px;
+}
+.text-center a:hover{
+  color: #264ce2;
+}
+
+/********************************************************************** last section  */
+.lastsection{
+    padding-top: 150px;
+}
+
+/* ********************************************************************footer */
+footer{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
